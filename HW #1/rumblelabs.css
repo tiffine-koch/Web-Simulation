@@ -17,19 +17,35 @@ header {
 
 #main {
   background-image: url("http://d27bqd9qyr2lqg.cloudfront.net/2014/home/header-brogramming-niall-phil.jpg");
-  /*height: 500px;
-  width:500px;*/
-  background-size: color;
-
+  /*height: 700px;
+  width:700px;*/
+  background-size: cover;
+  /*display: absolute;*/
   background-position: top right;
   background-position-x: 100%
   background-position-y: 0%;
+  background-repeat: no-repeat;
 }
 
-#navBar {
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+.a1 {
+  color: yellow;
+}
+/*#navBar {
   text-align: center;
   margin: 0 auto;
-}
+}*/
 
 section {
   text-align: center;
@@ -38,10 +54,23 @@ section {
 
 .nav{
   color: white;
-  font-weight: bold 16px;
-  display: inline-block;
+  font-weight: bold;
+  flex: none;
   margin-right: 10px;
   margin-bottom: 40px;
+  font-size:14px;
+  letter-spacing: 4px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav2{
+  color: yellow;
+  /*display: inline-block;
+  float: right;*/
+  margin-bottom: 40px;
+  font-size:14px;
+  letter-spacing: 4px;
+  font-family: Helvetica, sans-serif;
 }
 
 section {
@@ -64,37 +93,42 @@ section {
   text-align: center;
 }
 .one{
-  font-weight: bold;
-  font-size: 30px;
-  font-family: arial;
+  font-size: 40px;
+  font-family: Helvetica;
 }
 
 .two{
-  font-weight:bold 18px;
-  font-family: helvetica;
+  font-weight:bold 20px;
+  font-family: "adelle";
 }
 
 .three{
-  font-size: 30px;
-  font-family: lucida;
+  font-size: 38px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
 }
 
+
 .four{
-  font-size: 30px;
-  font-family: lucida;
+  font-size: 38px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
 }
 
 .five{
   /*border-color: yellow;
   border-style: solid;*/
   width: 150px;
+  height: 30px;
   padding: 20px;
   border: 5px yellow solid;
   border-radius: 10px;
-  margin: 25px;
+  margin: 0 auto;
 }
+
 #videoShot {
   width:70%;
+  margin-top: 40px;
   heigh: auto;
 
 }
@@ -111,12 +145,40 @@ section {
   font-size: 38px;
 }
 
-.fa {
+/*#culture {
+  text-align:center;
+}*/
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  flex:none;
+}
+
+.fa-recycle {
   font-size: 100px;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 .fa-heart {
-  margin-right: 400px;
+  font-size: 100px;
+}
+
+.iconH2Right {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: arial;
+  /*display: inline-block;*/
+
+}
+
+.iconH2Left {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: arial;
 }
 
 /*#myForm {
