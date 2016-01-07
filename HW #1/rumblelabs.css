@@ -1,10 +1,3 @@
-/*header {
-  background-color: black;
-}*/
-
-/*#front {
-  background-color: white;
-}*/
 header {
   text-align:center;
 }
@@ -116,8 +109,6 @@ section {
 }
 
 .five{
-  /*border-color: yellow;
-  border-style: solid;*/
   width: 150px;
   height: 30px;
   padding: 20px;
@@ -145,9 +136,6 @@ section {
   font-size: 38px;
 }
 
-/*#culture {
-  text-align:center;
-}*/
 .container2 {
   display: flex;
   flex-direction: row;
@@ -161,7 +149,6 @@ section {
 
 .fa-recycle {
   font-size: 100px;
-  /*display: inline-block;*/
 }
 .fa-heart {
   font-size: 100px;
@@ -171,8 +158,6 @@ section {
   font-size: 22px;
   font-weight: bold;
   font-family: arial;
-  /*display: inline-block;*/
-
 }
 
 .iconH2Left {
@@ -181,13 +166,6 @@ section {
   font-family: arial;
 }
 
-/*#myForm {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 350px;
-  height: 25px;
-}*/
-
 button {
   margin: auto;
 }
@@ -195,8 +173,3 @@ button {
 footer {
   margin-top: 50px;
 }
-
-
-/*body {
-  background-color: white;
-}*/
